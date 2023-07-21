@@ -64,11 +64,6 @@ For this analysis, the significance level is defined as 0.05. We analyzed the sa
 First we looked at the data to see if there were any correlations in the data.
 ![Correlation Heatmap Matrix](<images/Correlation Heatmap Matrix.png>)
 
-We felt we needed to examine the data a differnt way.
-![Multi hist plot](<images/multi hist.png>)
-
-![Box Plot](fc90d957-1492-4ff3-af6d-951b24330c65.png)
-
 ![Distribution of Fuel Efficiency](<images/Dist of Fuel Efficiency.png>)
 
 Bottom line. Our finding compel us to reject our null hypothesis.
