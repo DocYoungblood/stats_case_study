@@ -11,7 +11,8 @@
 Our groups hypothesis is the region of origin of a vehicle DOES affect the miles per gallon(mpg) of a vehicle. To better understand this we also examined the alternate hypothesis that region of origin of a vehicle does NOT affect it's mpg.
 
 ## 3 Discussion of the Data
-We analysed a csv cointaining data of various vehicles manufactured between 1970 to 1982. 
+We analysed a csv containing data of various vehicles manufactured between 1970 to 1982. The data was all numeric except for the car_name column which was simply the name manufacturer and model of the car in that order.
+
 The csv file contained eight columns which were:
     -mpg: miles per gallon of vehicle
     -cylinders: the number of cylinders in this vehicle
@@ -22,12 +23,14 @@ The csv file contained eight columns which were:
     -origin: Country of origin (1 is the United States, 2 is Germany, and 3 is Japan)
     -car_name: Description of car
 
+There was some missing data noted as a '?' in the dataset. **(How did we resolve this? Was it in a column we even used?)**
+
 We used the mpg column, which called fuel efficiency, and the origin column. Do the the different vehicle manufactures from more than the stated country in the data set we renamed the individual regions as follows:
     1 United Stated (stayed the same)
     2 Germany (renamed Europe)
     3 Japan (renamed Asia)
 
-** did anything we do effect the data? If so how?
+
 
 **Axis of the test. What were you testing? 
     -did we use a one tail test
