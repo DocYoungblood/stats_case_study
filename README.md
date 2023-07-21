@@ -8,7 +8,7 @@
     Robert (Bob) Ebend
 
 ## 2 Introduction
-Our groups hypothesis is the region of origin of a vehicle DOES not affect the miles per gallon(mpg) of a vehicle. To better understand this we also examined the alternate hypothesis that region of origin of a vehicle does NOT affect it's mpg.
+Our groups hypothesis is the region of origin of a vehicle DOES affect the miles per gallon(mpg) of a vehicle. To better understand this we also examined the alternate hypothesis that region of origin of a vehicle does NOT affect it's mpg.
 
 ## 3 Discussion of the Data
 We analysed a csv cointaining data of various vehicles manufactured between 1970 to 1982. 
