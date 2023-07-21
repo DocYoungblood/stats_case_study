@@ -39,20 +39,43 @@ To clarify the origin column, we renamed the individual regions as follows:
     3 Japan (renamed Asia)
 
 
-
-
-
-
 ## 4 Axis of the Test
-**Show a graph (pick ONE) to show our results and discuss it's relevance.
-**Axis of the test. What were you testing? 
-    -did we use a one tail test
-    -what was the alpha
-    -power
-    ** basically what were our numbers
+We'll focus on the 'mpg' and 'origin' variables, as these are the variables relevant to our hypothesis. The 'mpg' variable is a numerical variable that represents the miles per gallon of the vehicles, and the 'origin' variable is a categorical variable that represents the region where the vehicles were manufactured.
 
+## Hypothesis Testing
 
+### These are the steps we followed for our hypothesis Testing
+
+1. **State the hypotheses.** The null hypothesis is that the mean mpg for cars from all regions are equal, and the alternate hypothesis is that at least one region has a different mean mpg from the others.
+
+2. **Formulate an analysis plan.** 
+
+3. **Analyze sample data.** 
+
+4. **Interpret the results.**
+
+Now that we have explored the data, we can proceed to test our hypothesis. These are the steps we followed to establish and test our hypothesis. 
+
+We will perform a one-way ANOVA test to determine whether there are significant differences in the mean mpg for cars from different regions.
+
+For this analysis, the significance level is defined as 0.05. We analyzed the sample data with the test statistic as the F statistic, which follows an F distribution which we then plugged into Cohen's test for d. All of which facilitated the completion of the ANOVA test and allowed us to make a strong argument for our conclusion.
+
+## Interpretation of The Results
+First we looked at the data to see if there were any correlations in the data.
+![Correlation Heatmap Matrix](<images/Correlation Heatmap Matrix.png>)
+
+We felt we needed to examine the data a differnt way.
+![Multi hist plot](<images/multi hist.png>)
+
+![Box Plot](fc90d957-1492-4ff3-af6d-951b24330c65.png)
+
+![Distribution of Fuel Efficiency](<images/Dist of Fuel Efficiency.png>)
+
+Bottom line. Our finding compel us to reject our null hypothesis.
+F statistic: 98.54
+
+p value: 1.91e-35
 
 ## 5 Conclusion
-From our analysis, we have demonstrated our original hypothesis is invalid due to the low p_value. This supports our alternate hypothesis that at least one region has a different average fuel economy from the others. In this case the European and Asian regions showed better fuel economy. 
+From our analysis, we reject our null hypothesis. It is invalid due to the low p_value. This supports our alternate hypothesis that at least one region has a different average fuel economy from the others. In this case the European and Asian regions showed better fuel economy. 
 
